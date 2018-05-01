@@ -35,7 +35,7 @@ print("Winner: " + winner)
 print("--------------------")
 
 
-with open("election_results.txt", "w") as text_file:
+with open("election_results_2.txt", "w") as text_file:
     text_file.write("------------------------------\n")
     text_file.write("Election Results\n")
     text_file.write("------------------------------\n")

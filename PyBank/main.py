@@ -63,7 +63,7 @@ print("Greatest Increase in Revenue: " + max_change_date + " (" + str(max_change
 print("Greatest Decrease in Revenue: " + min_change_date + " (" + str(min_change) + ")")
 print("------------------------------")
 
-with open("bank_output.txt", "w") as text_file:
+with open("bank_output_2.txt", "w") as text_file:
     text_file.write("------------------------------\n")
     text_file.write("Financial Analysis\n")
     text_file.write("------------------------------\n")
