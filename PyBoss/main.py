@@ -93,8 +93,12 @@ for row in names:
 for row in bday:
     bday_sorted.append(row[1]+ "/" + row[2] + "/" + row[0])
 
-for row in ssn:
-    row = row.replace(row[:6], "***-**-")
+
+for i in range(0, len(ssn)):
+    ssn[i] = ssn[i].replace(ssn[i][0:6], "***-**")
+    
+
+
 
 final = zip(employee_id, first_name, last_name, bday_sorted, ssn, states_abr)
 
